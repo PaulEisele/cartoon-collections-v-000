@@ -10,9 +10,9 @@ end
 
 def long_planeteer_calls(planeteer_calls)
   if planeteer_calls.find {|x| x.length > 4}.class = string
-    true 
-  else 
-    false 
+    true
+  else
+    false
   end 
 end
 
